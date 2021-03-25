@@ -8,11 +8,47 @@
 </head>
 <body>
 	<header id="head" class="header">
+
 		<div class="containerHeader">
 			<img id="imgHeader" src="./images/headerImage.png" alt="">
-			<button id="btnHeader" class="">Consultar</button>
+			<nav>
+
+  				<label for="touch"><span>MENU</span></label>               
+  				<input type="checkbox" id="touch"> 
+  				<ul class="slide">
+    				<li><a href="#">Agendar</a></li> 
+    				<li><a href="#">Consultar</a></li>
+    				<li><a href="#">Borrar</a></li>
+  				</ul>
+
+			</nav> 
 		</div>
+
 	</header>
 	<!-- /header -->
+
+	<form action="./database/consult.php" method="POST" accept-charset="utf-8">
+
+		<div id="contentHome" class="container">
+			<div id="tle" class="tittle">
+			<h1>AGENDA COVID</h1>
+		</div>
+
+		<div id="conslt" class="consult-ci">
+			<h2>CEDULA</h2>
+			<input type="number" name="" value="" placeholder="C.I">
+			<h2>TELEFONO</h2>
+			<input type="number" name="" value="" placeholder="Phone">
+		</div>
+		<button type=""> AGENDAR</button>
+
+		</div>
+
+	</form>
+		<!-- /form -->
+		<footer>
+			
+		</footer>
+
 </body>
 </html>

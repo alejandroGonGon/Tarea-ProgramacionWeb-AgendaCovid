@@ -1,3 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+body {
+	background-color:  #231F20;
+	margin: 30px;
+	font-family: 'Crimson Text', serif;
+}
+
+h1{color: white; font-size: xxx-large; letter-spacing: 5px;}
+
+h2{color: white;}
+
+input{
+	width: 30%;
+    box-sizing: border-box;
+    border: 5px solid #FF7C48;
+    border-radius: 0px;
+    font-size: 20px;
+    background-color: #FFB655;
+    
+    padding: 12px 20px 12px 40px;
+}
+
+
+.container{
+	margin-right: 240px;
+    margin-left: 240px;
+    text-align: center;
+}
+.consult-ci h2{
+	padding-right: 20px;
+}
+.container button{
+	 background-color: #FF415B; /* Green */
+    border: none;
+    color: #231F20;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 25px;
+    border: 5px solid #235789;
+
+}
+
+/*<---.Menu.--->*/
+li a {text-decoration : none; color : #E9F1F7;}
+
+nav {
+  background: #2274A5;
+  float: right;
+}
+
+span {
+    padding: 15px;
+    background: #E50058;
+    color: white;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    cursor: pointer;
+    display: block;
+}
+
+.slide { 
+  padding-left: 0px;
+  margin-top: 0px;
+  list-style:none;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.slide li {padding : 30px;}
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: 230px;} 
+/*<!---./Menu.--->*/
+
 img#imgHeader {
      max-height: 100%;
     min-height: 20%;
